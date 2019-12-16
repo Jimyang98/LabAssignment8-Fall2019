@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "firstName": "Jim",
+        "lastName": "Yang",
+        "email": "jimyang@jjjcy.com",
+        "phone": "(559) 123-4567",
+        "editing": false
+    },
+    {
+        "id": 2,
+        "firstName": "Jimmy",
+        "lastName": "Yang",
+        "email": "jimmyang@jjjcy.com",
+        "phone": "(559) 123-4467",
+        "editing": false
+    },
+    {
+        "id": 3,
+        "firstName": "James",
+        "lastName": "Yang",
+        "email": "jamesyang@jjjcy.com",
+        "phone": "(559) 123-5567",
+        "editing": false
+    }
+]
