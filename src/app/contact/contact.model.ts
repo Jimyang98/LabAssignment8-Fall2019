@@ -8,6 +8,7 @@ interface IContact {
     editing?: boolean;
 }
 
+
 export class Contact {
 
     public id?: number;
@@ -29,8 +30,8 @@ export class Contact {
         }
         let editing = false;
         Object.keys(contact).forEach(() => {
-            console.log('from setState...', contact[key]);
-            if (contact[key] == null) {
+            console.log('from setState...', contact);
+            if (contact == null) {
                 editing = true;
             }
         });
