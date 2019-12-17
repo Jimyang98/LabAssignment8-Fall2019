@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 
 import { FormsModule } from '@angular/forms';
 
+import { ToastModule } from './toast/toast.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]
